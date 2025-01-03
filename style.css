@@ -33,9 +33,45 @@ body {
     max-height: 720px;
     margin-bottom: 50px;
 }
-.home-video-collection {
-    margin-bottom: 100px;
+/* Style for the search bar */
+.search-bar {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    text-align: center;
 }
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 300px;
+    outline: none;
+    opacity: 80%;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #343a40;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 80%;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.title {
+    text-align: center;
+}
+
+
+
+
 .video {
     width: 100%;
     height: auto;
@@ -65,4 +101,100 @@ body {
 
 .navigator-right {
     right: -50px;
+}.home-video-collection {
+    margin-bottom: 100px;
+}
+
+
+
+.districts-img-collection .media {
+    width: 100%;
+    height: auto;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.districts-img-collection {
+    margin-bottom: 100px;
+    position: relative;
+}
+.districts-img-collection .navigator {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    color: #343a40;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 9999;
+}
+.districts-img-collection .see-all a {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: bold;
+    color: #343a40;
+    text-decoration: none;
+}
+
+.popular-places-img-collection {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.popular-places-img-collection .media {
+    width: 100%;
+    height: auto;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.popular-places-img-collection .see-all a {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: bold;
+    color: #343a40;
+    text-decoration: none;
+}
+.photo-text {
+    margin-left: 25px;
+    font-weight: bold;
+    color: #343a40;
+    text-decoration: none;
+}
+.districts-description {
+    margin-bottom: 100px;
+    padding: 5%;
+    background-color: #ccc;
+}
+.districts-description .media {
+    width: 75%;
+    height: auto;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.districts-description .description {
+    margin-top: 100px;
+}
+
+/* Position the main image container */
+.main-image-container {
+    position: relative;
+}
+/* Position the image text */
+.image-text h2 {
+    position: absolute;
+    font-size: 80px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
 }
